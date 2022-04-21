@@ -1,0 +1,40 @@
+
+body{
+  background-color: pink;
+  color: white;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+table{
+  width: 80%;
+  border: 2px solid #d41183;
+  margin: auto;
+}
+th, td, tr{
+  border: 2px solid #d41183;
+}
+th{
+  font-weight: bold;
+  background-color: white;
+  color: #d41183;
+}
+
+td{
+  background-color: #f5dfec;
+  color: #d41183;
+  text-align: right;
+}
+
+footer{
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+}
+
+header{
+  margin: auto;
+  width:50%;
+  box-shadow: -1px -1px 3px #d41183;;
+}

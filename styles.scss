@@ -1,0 +1,49 @@
+@import '_base';
+
+//mixins
+@mixin color($bgcolor: white, $color: black)
+{
+    background: $bgcolor;
+    color: $white;
+}
+@mixin marginWidth()
+{
+    margin: auto;
+    width: 80%;
+}
+
+//apply styles
+body{
+    @include color(pink, white);
+    @include marginWidth();
+    margin-top: 50px;
+  }
+  
+  table{
+    @include marginWidth();
+    border: $border;
+  }
+  th, td, tr{
+    border: $border;
+  }
+  th{
+    @include color(white, #d41183);
+    font-weight: bold;
+  }
+  
+  td{
+      @include color(#f5dfec, #d41183);
+    text-align: right;
+  }
+  
+  footer{
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  header{
+    margin: auto;
+    width:50%;
+    box-shadow: -1px -1px 3px #d41183;;
+  }
